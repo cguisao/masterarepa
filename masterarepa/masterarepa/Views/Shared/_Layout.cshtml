@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - masterarepa</title>
+        <link rel="shortcut icon" href="~/img/_logo.jpg" />
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+        <!-- Bootstrap -->
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+        <!-- Owl Carousel -->
+        <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+        <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+        <!-- Magnific Popup -->
+        <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+        <!-- Font Awesome Icon -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!-- Custom stlylesheet -->
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    </head>
+    <body>
+        @RenderBody()
+        <hr />
+        <!-- Footer -->
+        <footer id="footer" class="sm-padding bg-dark">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Row -->
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <!-- footer logo -->
+                        <div class="footer-logo">
+                            <a href="#service"><img src="~/img/logo_no_background.png" alt="logo"></a>
+                        </div>
+                        <!-- /footer logo -->
+                        <!-- footer follow -->
+                        <ul class="footer-follow">
+                            @*<li><a href="https://www.facebook.com/BustilloMaids/"><i class="fa fa-facebook"></i></a></li>*@
+                            <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                            <li>#masterarepa <br /><a href="https://www.instagram.com/masterarepa/"><i class="fa fa-instagram"></i></a></li>
+                            <!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+                        </ul>
+                        <!-- /footer follow -->
+                        <!-- footer copyright -->
+                        <div class="footer-copyright">
+                            <p>Copyright © 2018. All Rights Reserved. Designed by GTI Solutions LLC</p>
+                        </div>
+                        <!-- /footer copyright -->
+
+                    </div>
+
+                </div>
+                <!-- /Row -->
+
+            </div>
+            <!-- /Container -->
+
+        </footer>
+        <!-- /Footer -->
+        <!-- Back to top -->
+        <div id="back-to-top"></div>
+        <!-- /Back to top -->
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- /Preloader -->
+        <!-- jQuery Plugins -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        @RenderSection("Scripts", required: false)
+    </body>
+</html>
